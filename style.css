@@ -376,7 +376,7 @@ aside{
 /*forma*/
 
 .forma-box{
-    position: fixed;
+    position: absolute;
     z-index: 10000;
     top: -200px;
     left: 25%;
