@@ -1,5 +1,5 @@
 // menu
-$('.menu-burg , .navigation').click(function () {
+$('.menu-burg , #part').click(function () {
 	if ($('.navigation').hasClass('vis')) {
 		$('.navigation').removeClass('vis')
 	} else {

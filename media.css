@@ -81,10 +81,11 @@
 		flex-direction: column;
 		background-color: pink;
 		background-color: #D6DED4;
-		width: 100px;
-		margin-top: 35px;
+		width: 120px;
+		margin-top: 40px;
 		transition-duration: .5s;
 		padding: 5px;
+		padding-bottom: 0;
 
 		visibility: hidden;
 		opacity: 0;
@@ -96,6 +97,7 @@
 
 	.part-nav{
 		padding-bottom: 10px;
+		font-size: 22px;
 	}
 
 	.menu-burg{
@@ -104,7 +106,7 @@
 
 	.dd-list{
 		top: 0;
-		left: -95%;
+		right: 110px;
 		padding-top: 0;
 		padding: 5px;
 		background-color: #D6DED4 ;
@@ -152,5 +154,17 @@
 
 	.alert-block{
 		width: 120px;
+	}
+
+	.alert-text {
+		font-size: 24px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.form-out {
+		width: 28px;
+		font-size: 20px;
+		padding-bottom: 3px;
 	}
 }
